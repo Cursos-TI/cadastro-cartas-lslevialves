@@ -2,6 +2,7 @@
 
 int main() { 
 
+    \\carta 1
 
     char estado1[2];
     char codigo1[4];
@@ -11,6 +12,7 @@ int main() {
     int pib1;
     int pontos1;
 
+\\carta 2
     char estado2[2];
     char codigo2[4];
     char cidade2[20];
@@ -20,8 +22,8 @@ int main() {
     int pontos2;
 
 
-
-
+\\armazenando dados carta 1
+    
   printf("Vamos inserir os dados da Carta1 \n");
   printf("Defina uma letra de 'A' a 'H' : ");
   scanf("%c", &estado1);
@@ -36,7 +38,7 @@ int main() {
   printf("Insira o valor de pontos desta carta: ");
   scanf("%i", &pontos1);
 
-
+\\ armazenando dados carta 2
   printf("Vamos inserir os dados da Carta2 \n");
   printf("Defina uma letra de 'A' a 'H' : ");
   scanf("%s", &estado2);
@@ -51,7 +53,8 @@ int main() {
   printf("Insira o valor de pontos desta carta: ");
   scanf("%i", &pontos2);
 
-
+\\imprimindo carta 1
+    
   printf("Os dados da carta 1 são: ");
   printf("Estado: %c\n", &estado1);
   printf("Código: %c\n", codigo1);
@@ -61,7 +64,8 @@ int main() {
   printf("PIB; %i\n", pib1);
   printf("Ponto: %i\n", pontos1);
 
-
+\\imprimindo carta 2
+    
   printf("Os dados da carta 2 são: ");
   printf("Estado: %c\n", estado2);
   printf("Código: %c\n", codigo2);
