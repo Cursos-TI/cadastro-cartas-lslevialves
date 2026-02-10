@@ -1,6 +1,6 @@
 #include <stdio.h> 
 
-int mail() { 
+int main() { 
 
 
     char estado1[2];
